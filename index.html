@@ -9,18 +9,50 @@
     <script src="https://kit.fontawesome.com/cfaa84e485.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <header class="text-center">
-        <h1>Money Master<i class="fa-solid fa-sack-dollar"></i></h1>
+     <header class="text-center mb-4">
+        <h1><b>Money Master</b><i class="fa-solid fa-sack-dollar"></i></h1>
     </header>
 
-    <main class="container">
-        <section class="grid grid-cols-2 gap-4">
-            <div>
-                <img class="w-auto mx-auto" src="assets/money.jpg" alt="">
+    <main class="container mx-auto">
+        <section class="grid grid-cols-2 gap-8 ml-8 mx-auto">
+            <div class="flex-justify-center">
+                <img class="w-auto mx-auto mt-2" src="assets/money.jpg" alt="">
             </div>
-            <div class="bg-light">
+            <div class="rightside mt-2">
                <div class="text-center">
-                <h5 class="bold">Income</h5>
+                <h5><b>Income</b></h5>
+                <div class="grid grid-cols-2 mt-4">
+                <label class="" for="income">Income:</label>
+                
+                    <input class="w-3/4" type="text" class="form-control" id="income">
+                </div>
+               </div>
+
+               <div class="text-center mt-4">
+                <h5><b>Expenses</b></h5>
+                <div class="grid grid-cols-2 mt-4">
+                <label class="" for="food">Food:</label>
+                
+                    <input class="w-3/4" type="text" class="form-control" id="food">
+                </div>
+
+                <div class="grid grid-cols-2 mt-4">
+                <label class="" for="food">Rent:</label>
+                
+                    <input class="w-3/4" type="text" class="form-control" id="rent">
+                </div>
+                <div class="grid grid-cols-2 mt-4">
+                <label class="" for="food">Clothes:</label>
+                
+                    <input class="w-3/4" type="text" class="form-control" id="clothes">
+                </div>
+               </div>
+               <button id="btn-cal" class="ml-48 mt-8 px-5 py-2 mt-2 text-white font-bold">Calculate</button>
+
+               <div class="text-center mt-6">
+                <h5><b>Total Expenses: 5500</b></h5><br>
+                <h5><b>Balance: 4500</b></h5>
+
                </div>
             </div>
 
