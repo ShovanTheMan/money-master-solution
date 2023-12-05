@@ -1,7 +1,12 @@
-.rightside{
+.right{
     background-color: lightblue;
 }
 #btn-cal{
  background-color: blueviolet;
  align-items: center;
+}
+.save{
+    display: flex;
+    justify-content: center;
+    
 }

@@ -10,19 +10,19 @@
 </head>
 <body>
      <header class="text-center mb-4">
-        <h1><b>Money Master</b><i class="fa-solid fa-sack-dollar"></i></h1>
+        <h1 class="header text-blue-600"><b>Money Master</b><i class="fa-solid fa-sack-dollar"></i></h1>
     </header>
 
     <main class="container mx-auto">
-        <section class="grid grid-cols-2 gap-8 ml-8 mx-auto">
+        <section class="grid grid-cols-2 gap-8 ml-4 mx-auto">
             <div class="flex-justify-center">
                 <img class="w-auto mx-auto mt-2" src="assets/money.jpg" alt="">
             </div>
-            <div class="rightside mt-2">
+            <div class="right mt-2">
                <div class="text-center">
                 <h5><b>Income</b></h5>
                 <div class="grid grid-cols-2 mt-4">
-                <label class="" for="income">Income:</label>
+                <label class="ml-24" for="income">Income:</label>
                 
                     <input class="w-3/4" type="text" class="form-control" id="income">
                 </div>
@@ -31,30 +31,48 @@
                <div class="text-center mt-4">
                 <h5><b>Expenses</b></h5>
                 <div class="grid grid-cols-2 mt-4">
-                <label class="" for="food">Food:</label>
+                <label class="ml-24" for="food">Food:</label>
                 
                     <input class="w-3/4" type="text" class="form-control" id="food">
                 </div>
 
                 <div class="grid grid-cols-2 mt-4">
-                <label class="" for="food">Rent:</label>
+                <label class="ml-24" for="food">Rent:</label>
                 
                     <input class="w-3/4" type="text" class="form-control" id="rent">
                 </div>
                 <div class="grid grid-cols-2 mt-4">
-                <label class="" for="food">Clothes:</label>
+                <label class="ml-24" for="food">Clothes:</label>
                 
-                    <input class="w-3/4" type="text" class="form-control" id="clothes">
+                    <input class="w-3/4 mr-4" type="text" class="form-control" id="clothes">
                 </div>
                </div>
-               <button id="btn-cal" class="ml-48 mt-8 px-5 py-2 mt-2 text-white font-bold">Calculate</button>
+               <button id="btn-cal" class="ml-60 mt-8 px-5 py-2 mt-2 text-center font-bold">Calculate</button>
 
                <div class="text-center mt-6">
                 <h5><b>Total Expenses: 5500</b></h5><br>
                 <h5><b>Balance: 4500</b></h5>
 
                </div>
+               <div class="text-center mt-4 ">
+               <div class="save">
+                <label class="ml-24 mr-4" for="save">Save:</label>
+                
+                <input class="mr-4 w-1/4" type="text" class="form-control" id="save">
+               
+                
+                    <h4 class="mr-4 text-center">%</h4>   
+                <button id="btn-cal" class=" px-5 py-2 font-bold">Calculate</button>
+            
+               
             </div>
+            </div>
+
+            <div class="text-center mt-6">
+                <h5><b>Saving Amount: 2000</b></h5><br>
+                <h5><b>Remaining Balance: 2500</b></h5>
+
+               </div>
 
         </section>
 
